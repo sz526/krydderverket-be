@@ -56,7 +56,7 @@ if (app.Environment.IsDevelopment())
 }
 
 // Enable CORS policy (Must be placed before UseAuthorization)
-app.UseCors("ReactAppPolicy");
+//app.UseCors("ReactAppPolicy");
 
 app.UseAuthorization();
 
